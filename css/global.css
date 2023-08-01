@@ -36,7 +36,7 @@
     font-family: var(--primary-font);
     background-image: url(../assets/images/Purple\ Rectangle\ Bg.svg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top;
     background-size: contain;
     }
     
