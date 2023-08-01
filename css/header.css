@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 16px 64px 32px;
+
+}
+
+header a {
+    font-family: var(--secondary-font);
+    font-weight: var(--weight-semibold);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+@media only screen and (min-width: 700px) {
+    header {
+        padding: 32px 40px 56px 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        padding: 56px 165px 55px 165px;
+    }
+
+    header a {
+        font-size: 1.125rem;
+    }
+}

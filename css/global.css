@@ -1,0 +1,66 @@
+/* Variables */
+
+:root {
+    --primary-color: #24053E;
+    --secondary-color: #44FFA1;
+    --tertiary-color: #584D62;
+    --primary-font: 'Fraunces';
+    --secondary-font: 'Manrope';
+    --weight-semibold: 600;
+}
+
+/* Font Import */
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    font-family: var(--primary-font);
+    background-image: url(../assets/images/Purple\ Rectangle\ Bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    }
+    
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+    }
+    
+    input, button, textarea, select {
+      font: inherit;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+
+.button {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+
+  
