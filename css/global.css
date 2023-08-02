@@ -34,10 +34,6 @@
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
     font-family: var(--primary-font);
-    background-image: url(../assets/images/Purple\ Rectangle\ Bg.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
     }
     
     img, picture, video, canvas, svg {

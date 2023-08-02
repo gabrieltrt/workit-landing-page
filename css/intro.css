@@ -1,3 +1,7 @@
+.intro {
+    background-color: var(--primary-color);
+}
+
 .intro h1{
     font-size: 3.125rem;
     text-align: center;
@@ -14,8 +18,9 @@
     max-width: 8.3125rem;
 }
 
-.intro img {
-    margin: 64px 0px 64px 36px;
-    margin: calc();
+.intro-img-container {
     max-width: 20rem;
+    position: relative;
+    left: 36px;
 }
+

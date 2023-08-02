@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 28px 16px 64px 32px;
-
+    background-color: var(--primary-color);
 }
 
 header a {
