@@ -44,7 +44,7 @@
 @media only screen and (min-width: 700px) {
     .cta {
       max-width: 689px;
-      height: 526px;
+
     }
 
     .cta-img-box {
@@ -53,8 +53,7 @@
 
     .cta-content {
      max-width: 514px;
-     position: absolute;
-     right: 0px;
+   
     }
 
     .cta-content h2 {
