@@ -1,16 +1,16 @@
 .cta {
     max-width: 21.4375rem;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    position: relative;
 }
+
 
 .cta-img-box {
     max-width: 17.5625rem;
+    justify-self: center;
+    margin: 0 auto;
     position: relative;
-    top: 3.125rem;
+    top: 55px;
     z-index: -1;
 }
 
@@ -19,18 +19,19 @@
     color: #FFFFFF;
     text-align: center;
     padding: 2rem 1.9375rem;
-    line-height: 1.75;
 }
 
 .cta-content h2 {
     font-size: 2rem;
     font-weight: var(--weight-semibold);
     margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
 .cta-content p {
     font-family: var(--secondary-font);
     margin-bottom: 1.5rem;
+    line-height: 1.75;
 }
 
 .cta-content a {
@@ -41,12 +42,55 @@
 }
 
 @media only screen and (min-width: 700px) {
+    .cta {
+      max-width: 689px;
+      height: 526px;
+    }
 
+    .cta-img-box {
+      
+    }
+
+    .cta-content {
+     max-width: 514px;
+     position: absolute;
+     right: 0px;
+    }
+
+    .cta-content h2 {
+        font-size: 48px;
+        text-align: left;
+        margin-bottom: 1.5rem;
+        line-height: 1.1666
+    }
+
+    .cta-content p {
+        text-align: left;
+        line-height: 1.75;
+    }
+
+    .cta-content a {
+        margin: initial;
+    }
   
 
 }
   
 
 @media only screen and (min-width: 1200px) {
+    
+
+    .cta-content h2 {
+        font-size: 56px;
+        margin-bottom: 2rem;
+    }
+
+    .cta-content p {
+        margin-bottom: 2rem;
+    }
+
+    .cta-img-box {
+        max-width: 477px;
+    }
 
 }
