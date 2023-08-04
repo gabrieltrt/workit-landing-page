@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 3.5625rem;
     align-items: center;
-    margin-bottom: 4.0625rem;
+    margin-bottom: 3.9863rem;
 
 }
 
@@ -14,4 +14,16 @@
 .footer-icons {
     display: flex;
     gap: 1.75rem;
+}
+
+@media only screen and (min-width: 700px) {
+    .footer {
+        margin-bottom: 7.6113rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer {
+        margin-bottom: 6.875rem;
+    }
 }

@@ -1,5 +1,7 @@
 .intro {
     background-color: var(--primary-color);
+    position: relative;
+    overflow-x: clip;
 }
 
 .intro h1{
@@ -21,6 +23,21 @@
     max-width: 20rem;
     transform: translateY(4rem);
     margin: auto;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -3rem;
+    transform: translateX(-50%);
+    border-radius: 50% / 0 0 100% 100%;
+    width: 150%;
+    height: 5rem;
+    z-index: -1;
 }
 
 @media only screen and (min-width: 700px) {
